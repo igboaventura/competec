@@ -50,8 +50,11 @@ public class aula2 {
             int numb;
             System.out.println("digite um número :");
             numb=entrada.nextInt();
-            for(int i=1;i <numb;i = i+2){
-                System.out.println(i);
+
+            System.out.println();
+
+            for(int i=1;i <=numb;i = i+2){
+                System.out.print(i +", ");
 
             }
 
