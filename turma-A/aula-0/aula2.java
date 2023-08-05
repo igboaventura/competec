@@ -45,29 +45,29 @@ public class aula2 {
             
             // }
            
-            // Scanner entrada = new Scanner(System.in);
+            Scanner entrada = new Scanner(System.in);
       
-            // int numb;
-            // System.out.println("digite um número :");
-            // numb=entrada.nextInt();
+            int numb;
+            System.out.println("digite um número :");
+            numb=entrada.nextInt();
 
-            // System.out.println();
+            System.out.println();
 
-            // for(int i=1;i <=numb;i = i+2){
-            //     System.out.print(i +", ");
+            for(int i=1;i <=numb;i = i+2){
+                System.out.print(i +", ");
 
-            // }
+            }
 
-            // int numb;
+            int num;
 
     
-            // for(int i=2;i <=100; i++){
-            // if(i%2==0) System.out.print(i +"\n");
-            // }
+            for(int i=2;i <=100; i++){
+            if(i%2==0) System.out.print(i +"\n");
+            }
                
 
-            // int n;
-            // int x;
+            int n;
+            int x;
             
 
 

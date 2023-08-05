@@ -46,22 +46,27 @@ public class aula4 {
         // }              
 
         
-            int [][] tab  = {{3,3,3}
-                           {12,23,45}
+            int [][] tab  = {{3,3,3},
+                           {12,23,45},
                            {19,23,43}};
 
-        int [][] tabt  = {{7,5,3}
-                           {12,4,49}
+        int [][] tabt  = {{7,5,3},
+                           {12,4,49},
                            {17,24,42}};
    
-
         for(int i=0;i<2;i++){
             for(int p=0;p<2;p++){
-int soma= tab[i][j]+tabt[i][j] 
-                System.out.print(soma);
+                for(int o=0;o<2;o++){
+                    for(int k=0;k<2;k++){
+                      int soma= tab[i][p]+tabt[o][k]; 
+                
+                
+               int tamb2 = soma;
+                      System.out.println("os valores são: "+tamb2);
             
+                    }
+                }                
             }
-        }                
-
-    }
-}
+        }
+    }   
+ }
